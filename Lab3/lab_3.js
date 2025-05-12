@@ -13,4 +13,4 @@ for (var num = lowerBound; num <= upperBound; num++) {
     if (isPrime)
         primeNumbers.push(num);
 }
-console.log("Prime numbers between ".concat(lowerBound, " and ").concat(upperBound, ": ").concat(primeNumbers.join(", ")));
+console.log("Prime numbers between ".concat(lowerBound, " and ").concat(upperBound, ": ").concat(primeNumbers.join(", "), "\n"));

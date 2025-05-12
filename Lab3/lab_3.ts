@@ -13,4 +13,6 @@ for (let num: number = lowerBound; num <= upperBound; num++) {
     if (isPrime) primeNumbers.push(num);
 }
 
-console.log(`Prime numbers between ${lowerBound} and ${upperBound}: ${primeNumbers.join(", ")}`);
+console.log(`Prime numbers between ${lowerBound} and ${upperBound}: ${primeNumbers.join(", ")}\n`);
+
+
